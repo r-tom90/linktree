@@ -4,7 +4,7 @@ import { navlinks } from "../constants";
 
 const ButtonLink = () => {
   return (
-    <div className="flex w-[450px] flex-col sm:w-[525px] md:w-[600px]">
+    <div className="flex w-[375px] flex-col sm:w-[525px] md:w-[600px]">
       {navlinks.map((link) => {
         return (
           <div

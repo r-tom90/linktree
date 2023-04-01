@@ -4,7 +4,7 @@ import { profileInfo } from "../constants";
 
 const Profile = () => {
   return (
-    <div className="flex min-w-[450px] flex-col items-center p-4">
+    <div className=" flex w-[400px] flex-col items-center p-4 sm:min-w-[450px]">
       <div className="relative">
         <div className="h-[120px] w-[120px] animate-spin-slow rounded-full bg-gradient-to-t from-teal-500 via-yellow-400 to-cyan-500" />
         <img
@@ -16,7 +16,7 @@ const Profile = () => {
       <section className="mt-6 text-center">
         <h1 className="flex items-end justify-center border-none text-xl font-bold md:text-3xl">
           {profileInfo.name}
-          <p className="ml-1 text-base font-light italic md:text-xl">
+          <p className="ml-1 text-base font-light italic underline md:text-xl">
             {profileInfo.nickname}
           </p>
         </h1>
